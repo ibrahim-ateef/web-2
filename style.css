@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+
+  }
+  
+ 
+  
+  .container {
+    display: flex;
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    width: 900px;
+  }
+  
+  .left {
+    width: 50%;
+    padding: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: black;
+  }
+  
+ 
+  .tip-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .tip-buttons button {
+    flex: auto;
+    padding: 10px;
+    background-color: beige;
+    color: #d32525;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+ 
+  
+
+  
+  .right{
+    width: 50%;
+    background-color: beige;
+    border-radius: 20px;
+    padding: 20px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .output {
+    margin-bottom: 20px;
+  }
+  
+  .output-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  .reset-button {
+    background-color: red;
+    color: black;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+ 
